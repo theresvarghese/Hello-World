@@ -1,7 +1,12 @@
 #include<stdio.h>
 
 int main(void)
+{ int r;
+  r=hello();
+  printf ("%d",r);
+}
+int hello()
 {
-  printf("Hello, world!");
+     printf("Hello, world!");
   return 0;
 }
